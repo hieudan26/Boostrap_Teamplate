@@ -2,9 +2,9 @@
 *, ::after, ::before {
     box-sizing: border-box;
 }
-button
+button,.btn
 {
-	border-radius: 5px;
+	border-radius: 10px;
 }
 h4
 {
@@ -145,4 +145,24 @@ h6
 {
 	font-size: 1.2rem;
 	color: #869ab8!important;
+}
+.header div a
+{
+	font-weight: normal;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 1rem;
+	text-align: center;
+	font-weight: 450;
+}
+.header div a:first-child
+{
+	color: white;
+}
+.header div a:last-child
+{
+	color: rgba(51,94,234,.8);
+	background-color: rgba(51,94,234,.1);
+	border: none;
+	font-weight: 600;
 }
