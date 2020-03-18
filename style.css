@@ -11,13 +11,14 @@ h4
 	font-size: 1.15rem;
 	font-weight: 600;
 }
+
 @media (max-width:900px)
 {
 	.dropdown-img-left
 	{
 		display: none;
 	}
-	.dropdown-menu
+	.dropdown-menu-xl-right,.drop-out,.dropdown-menu-md-right
 	{
 		display: block;
 	}
@@ -31,10 +32,14 @@ h4
 	font-size: 1.5rem;
 
 }
-.nav-item a:hover
+.nav-item a:hover 
 {
 	color:rgba(51,94,234,.8)!important;
 	background-color: white;
+}
+li:hover >.dropdown-menu
+{
+	display: block;
 }
 .nav-item
 {
@@ -66,7 +71,13 @@ h4
 .dropdown-menu-xl-right
 {
 	width: 40rem!important ;
-	right: -385%;
+	right: -300%;
+
+}
+.dropdown-menu-md-right
+{
+	width: 20rem!important ;
+	right: -100%;
 
 }
 .btn-white
@@ -81,7 +92,42 @@ h4
 }
 .col-6 > *,.col-3 > *
 {
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	font-weight: 600;
 	color: grey;
+}
+.list-drop-li a  span
+{
+	font-size: 0.9rem;
+	font-weight: 600;
+	color: grey;
+	margin-bottom: 0.5rem;
+	margin-left: 2rem;
+}
+.list-drop-li a i
+{
+	margin-top: 5px;
+	font-size: 10px;
+	color: grey;
+}
+.list-drop-li ul li
+{
+	font-size: 1rem;
+	font-weight: 300;
+}
+h6
+{
+	font-size: 0.9rem;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+}
+.list-group div p
+{
+	font-size: 0.8rem;
+	color: grey;
+	font-weight: 500;
+}
+.list-group > *
+{
+	border: none;
 }
