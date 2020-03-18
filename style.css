@@ -82,7 +82,7 @@ li:hover >.dropdown-menu
 }
 .btn-white
 {
-	background-color: white;
+	background-color: rgba(51,94,234,.1);
 	color: blue;
 	font-weight: 600;
 }
@@ -130,4 +130,19 @@ h6
 .list-group > *
 {
 	border: none;
+}
+.header
+{
+	margin-top: 5rem;
+}
+.header div h2
+{
+	font-weight: 350;
+	font-size: 3rem;
+	color: black;
+}
+.text-muted
+{
+	font-size: 1.2rem;
+	color: #869ab8!important;
 }
