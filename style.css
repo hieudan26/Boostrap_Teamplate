@@ -218,3 +218,37 @@ h6
 	backface-visibility: hidden;
 	box-shadow: 25px 60px 125px -25px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2);
 }
+.footer
+{
+	background-color: rgb(27, 42, 78);
+	max-width: 100%;
+	box-sizing: border-box;
+}
+.list-social-icon
+{
+	width: 20px;
+	height: 20px;
+}
+.tilte-footer *
+{
+	font-weight: 400;
+}
+.tilte-footer p
+{
+	color: white;
+}
+.tilte-footer h4
+{
+	font-size: 1.4rem;
+	color: rgba(51,94,234,.8);
+	font-weight: 600;
+}
+.footer-infor div h6
+{
+	font-weight: 400;
+	color: rgba(51,94,234,.8)!important;
+}
+.footer-infor div a
+{
+	color: white;
+}
