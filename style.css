@@ -1,5 +1,4 @@
 
-
 *, ::after, ::before {
     box-sizing: border-box;
 }
@@ -12,8 +11,7 @@ h4
 	font-size: 1.15rem;
 	font-weight: 600;
 }
-
-@media (max-width:900px)
+@media (max-width:992px)
 {
 	.dropdown-img-left
 	{
@@ -27,6 +25,11 @@ h4
 	{
 	width: auto!important;
 	right: 0% !important;
+	}
+	.img
+	{
+	width: 100%!important;
+	height: auto;
 	}
 }
 .dropdown-menu
@@ -175,4 +178,43 @@ h6
 {
 	font-size: 1rem;
 }
+.img-card
+{
+	    border-top-left-radius: calc(.375rem - 0px);
+    border-top-right-radius: calc(.375rem - 0px);
+}
+.text-card-top 
+{
+	font-weight: 400;
+	line-height: 2rem;
+}
+.success
+{
+	font-size: 1rem;
+	color: rgb(66,186,150)!important;
+}
+.text-card-icon h2
+{
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+.text-card-icon p
+{
+	font-size: 1rem;
+	font-weight: 400;
+}
+.img
+{
+	width: 125%;
+	height: auto;
+	box-shadow: 25px 60px 125px -25px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2);
+	
+}
+.has-img
+{
 
+	transform-style: preserve-3d;
+	transform: rotateY(-35deg) rotateX(15deg);
+	backface-visibility: hidden;
+	box-shadow: 25px 60px 125px -25px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2);
+}
